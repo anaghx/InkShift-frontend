@@ -935,7 +935,7 @@ const ReportGeneratorPage = () => {
 
     return (
       <div className="min-h-screen bg-gray-50">
-        <Header />
+        <Header setCurrentPage={setCurrentPage} />
         <div className="max-w-7xl mx-auto px-6 py-8">
           {/* NEW DROPDOWN SECTION */}
           <div className="mb-8">
